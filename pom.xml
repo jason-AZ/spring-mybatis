@@ -16,6 +16,7 @@
         <mybaits.version>3.4.1</mybaits.version>
         <mybaits-spring.version>1.3.0</mybaits-spring.version>
         <spring.version>4.3.3.RELEASE</spring.version>
+        <bonecp.version>>0.8.0.RELEASE</bonecp.version>
         <junit.version>4.12</junit.version>
         <mysql-connector-java.version>5.1.39</mysql-connector-java.version>
     </properties>
@@ -87,6 +88,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector-java.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.jolbox/bonecp -->
+        <dependency>
+            <groupId>com.jolbox</groupId>
+            <artifactId>bonecp</artifactId>
+            <version>${bonecp.version}</version>
+        </dependency>
+
 
 
     </dependencies>
